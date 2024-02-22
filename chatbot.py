@@ -7,9 +7,9 @@ import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st  
 # Download required NLTK data
-#nltk.download('stopwords')
-#nltk.download('punkt')
-#nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
